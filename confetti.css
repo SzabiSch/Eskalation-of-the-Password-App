@@ -1,0 +1,20 @@
+#canvas {
+  background: linear-gradient(90deg, red 0% 30%, snow 35% 65%, blue 70%);
+  background-size: 120% 100%;
+
+  -webkit-animation: Animation 5s ease infinite;
+  /*-moz-animation: Animation 5s ease infinite;
+  //animation: Animation 5s ease infinite;*/
+}
+
+@-webkit-keyframes Animation {
+  0% {
+    background-position: 10% 100%;
+  }
+  50% {
+    background-position: 90% 100%;
+  }
+  100% {
+    background-position: 10% 100%;
+  }
+}
